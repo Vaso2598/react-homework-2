@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Aside from "./layout/Header/Aside";
+import Header from "./layout/Header/Header";
+import Artists from "./pages/Artists";
+import Library from "./pages/Library";
+import Search from "./pages/Search";
+import {nav} from "./data/nav";
+import {artistData} from "./data/artistData";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+
+const router = createBrowserRouter([
+	{
+		path: "/",
+		// element: <App />,
+		element: <h1>Home</h1>,
+	},
+	{
+		path: "/search",
+		element: <Search />,
+		element: <h1>Search</h1>,
+	},
+	{
+		path: "/artists",
+		element: <Artists />,
+		element: <h1>Artists</h1>,
+	},
+	{
+		path: "/library",
+		element: <Library />,
+		element: <h1>Your Library</h1>,
+	},
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Header navigation={nav} />
+			<Aside artistData={artistData} />
+			<RouterProvider router={router} />
+		</>
+	);
 }
 
 export default App;
