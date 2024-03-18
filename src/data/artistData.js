@@ -2,6 +2,7 @@ export const artistData = [
 	{
 		id: 1,
 		name: "Motorama",
+		dataType: "artist",
 		profilePicture: "./imgs/Motorama.jpg",
 		mainGenre: "Post-Punk",
 		origin: "Russia",
@@ -9,6 +10,7 @@ export const artistData = [
 	{
 		id: 2,
 		name: "Roosevelt",
+		dataType: "artist",
 		profilePicture: "./imgs/Roosevelt.jpg",
 		mainGenre: "Electronic",
 		origin: "Germany",
@@ -16,6 +18,7 @@ export const artistData = [
 	{
 		id: 3,
 		name: "Foals",
+		dataType: "artist",
 		profilePicture: "./imgs/Foals.jpg",
 		mainGenre: "Indie Rock",
 		origin: "United Kingdom",
@@ -23,6 +26,7 @@ export const artistData = [
 	{
 		id: 4,
 		name: "deadmau5",
+		dataType: "artist",
 		profilePicture: "./imgs/deadmau5.jpg",
 		mainGenre: "Electronic",
 		origin: "Canada",
@@ -30,6 +34,7 @@ export const artistData = [
 	{
 		id: 5,
 		name: "alt-J",
+		dataType: "artist",
 		profilePicture: "./imgs/alt-j.jpg",
 		mainGenre: "Indie Rock",
 		origin: "United Kingdom",
@@ -37,6 +42,7 @@ export const artistData = [
 	{
 		id: 6,
 		name: "Fleet Foxes",
+		dataType: "artist",
 		profilePicture: "./imgs/fleet_foxes.jpg",
 		mainGenre: "Indie Folk",
 		origin: "United States",
@@ -44,6 +50,7 @@ export const artistData = [
 	{
 		id: 7,
 		name: "Joy Division",
+		dataType: "artist",
 		profilePicture: "./imgs/joy_division.jpg",
 		mainGenre: "Post-Punk",
 		origin: "United Kingdom",
@@ -51,6 +58,7 @@ export const artistData = [
 	{
 		id: 8,
 		name: "Daft Punk",
+		dataType: "artist",
 		profilePicture: "./imgs/daft_punk.jpg",
 		mainGenre: "Electronic",
 		origin: "France",
@@ -58,6 +66,7 @@ export const artistData = [
 	{
 		id: 9,
 		name: "The Weeknd",
+		dataType: "artist",
 		profilePicture: "./imgs/the_weeknd.jpg",
 		mainGenre: "R&B",
 		origin: "Canada",
@@ -65,6 +74,7 @@ export const artistData = [
 	{
 		id: 10,
 		name: "Kid Francescoli",
+		dataType: "artist",
 		profilePicture: "./imgs/kid_francescoli.jpg",
 		mainGenre: "Electronic",
 		origin: "France",
