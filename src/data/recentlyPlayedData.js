@@ -10,7 +10,7 @@ export const recentlyPlayedData = [
 	{
 		id: 2,
 		name: "Playlist 1",
-		playlistCover: "playlist1.jpg",
+		playlistCover: "./imgs/playlist.jpg",
 		createdBy: "User1",
 		dataType: "playlist",
 		content: ["Roosevelt", "M83", "Foals"],
@@ -26,7 +26,7 @@ export const recentlyPlayedData = [
 	{
 		id: 4,
 		name: "Playlist 2",
-		playlistCover: "playlist2.jpg",
+		playlistCover: "./imgs/playlist.jpg",
 		createdBy: "User2",
 		dataType: "playlist",
 		content: ["Neon Indian", "Tame Impala", "Tycho"],
@@ -42,7 +42,7 @@ export const recentlyPlayedData = [
 	{
 		id: 6,
 		name: "Playlist 3",
-		playlistCover: "playlist3.jpg",
+		playlistCover: "./imgs/playlist.jpg",
 		createdBy: "User3",
 		dataType: "playlist",
 		content: ["MGMT", "Grimes", "FKA twigs"],
@@ -58,7 +58,7 @@ export const recentlyPlayedData = [
 	{
 		id: 8,
 		name: "Playlist 4",
-		playlistCover: "playlist4.jpg",
+		playlistCover: "./imgs/playlist.jpg",
 		createdBy: "User4",
 		dataType: "playlist",
 		content: ["Tame Impala", "Tycho", "Motorama"],
@@ -74,7 +74,7 @@ export const recentlyPlayedData = [
 	{
 		id: 10,
 		name: "Playlist 5",
-		playlistCover: "playlist5.jpg",
+		playlistCover: "./imgs/playlist.jpg",
 		createdBy: "User5",
 		dataType: "playlist",
 		content: ["Roosevelt", "Foals", "Grimes"],
