@@ -30,12 +30,12 @@ const router = createBrowserRouter([
 
 function App() {
 	return (
-		<div className="p-4 flex flex-row gap-4 bg-black">
+		<div className="p-4 flex flex-row gap-4 bg-black h-screen">
 			<header className="flex flex-col min-w-52 gap-4">
 				<Header navigation={nav} />
 				<Aside artistData={artistData} />
 			</header>
-			<RouterProvider router={router} className="w-auto" />
+			<RouterProvider router={router} className="w-auto h-full" />
 		</div>
 	);
 }
