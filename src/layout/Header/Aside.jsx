@@ -3,7 +3,7 @@ import React from 'react'
 const Aside = ({artistData}) => {
   console.log(artistData)
   return (
-    <div className="bg-teal-950">
+    <div className="bg-teal-950 text-slate-50 h-full">
       <div className="flex flex-col gap-4">
       {
         artistData.map((data) => {

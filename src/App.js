@@ -8,7 +8,6 @@ import Search from "./pages/Search";
 import {nav} from "./data/nav";
 import {artistData} from "./data/artistData";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {artistsYouMayLike} from "./data/artistsYouMayLike";
 
 const router = createBrowserRouter([
 	{
@@ -31,8 +30,8 @@ const router = createBrowserRouter([
 
 function App() {
 	return (
-		<div className="mx-4 flex flex-row gap-4">
-			<header className="flex flex-col min-w-52">
+		<div className="p-4 flex flex-row gap-4 bg-black">
+			<header className="flex flex-col min-w-52 gap-4">
 				<Header navigation={nav} />
 				<Aside artistData={artistData} />
 			</header>

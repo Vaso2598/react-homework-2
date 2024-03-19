@@ -3,7 +3,7 @@ import React from 'react'
 function Header({navigation}) {
     console.log(navigation)
   return (
-    <nav className="bg-teal-950">
+    <nav className="bg-teal-950 text-slate-50">
         <ul>
             {navigation.map((item, index) => {
                 return(
